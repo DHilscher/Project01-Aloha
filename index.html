@@ -6,22 +6,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://use.fontawesome.com/2461701dd8.js"></script>
 
 </head>    
 
-<body>
+<body class="body">
 
-    <header>    
+    <header class="header">    
         
-        <div>
+        <section>
         <img class="logo" src="images/aloha-logo.svg" alt="Aloha Logo">
-        </div>
+        </section>
 
-        <div>
+        <section>
         <img class="cart" src="images/cart-icon.svg" alt="Shopping Cart">
-        </div>
+        </section>
         
 
         <nav class="flex-item, flex3">
@@ -50,14 +51,18 @@
     
     </section>
 
+    <section class="about">
+
     <h2 class="italic" id="about">Hand-Crafted <span class="bold">Styles</span></h2>
 
     <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for 
         updates below.</p>
 
+    </section>
+
     <section class="flexbox">
 
-    <section class="mens" id="shop">
+    <section class="mens category-wide" id="shop">
 
         
         
@@ -65,7 +70,7 @@
 
     </section>
 
-    <section class="trends">
+    <section class="trends category-square">
         
         
         
@@ -73,7 +78,7 @@
 
     </section>
 
-    <section class="glasses">
+    <section class="glasses category-square">
         
         
         
@@ -81,7 +86,7 @@
 
     </section>
 
-    <section class="sale">
+    <section class="sale category-square">
         
         
         
@@ -89,7 +94,7 @@
 
     </section>
 
-    <section class="bags">
+    <section class="bags category-square">
         
         
         
@@ -97,7 +102,7 @@
 
     </section>
 
-    <section class="womens">
+    <section class="womens category-wide">
         
         
         
@@ -171,11 +176,11 @@
 
     <section id="updates" class="subscribe" >
 
-        <p>Sign-up for Updates</p>
-        <p>Stay updated on our latest product releases, be first to find out about </p>
-        <p>upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+        <h2>Sign-up for <span class="bold">Updates</span></h2>
+        <p>Stay updated on our latest product releases, be <br>first to find out about upcoming sales, and get free<br> style tips 
+           from our blog. Unsubscribe at any time.</p>
 
-        <form>
+        <form class="sign-up-form">
 
             <input type="email" name="your_email" placeholder="Your Email">
             <input type="submit" name="subscribe" value="Subscribe">
@@ -188,7 +193,7 @@
     <footer>
 
         <section class="white" >
-            <p>© 2016 Aloha Apparel Co.</p>
+            <p>© 2017 Aloha Apparel Co.</p>
             <p class="margin-bottom">Powered by HTML and CSS.</p>
             <p class="margin-bottom">604-604-6040. <span class="underline"><a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></span></p>
             <span class="grey">    
@@ -212,7 +217,12 @@
         </section>
 
     </footer>
-
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>    
+<script src="scripts.js"></script>
 </body>
 
 </html>
