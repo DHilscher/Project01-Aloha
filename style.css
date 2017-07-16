@@ -246,6 +246,10 @@ ul {
 	width: 100%;
 }
 
+.flickity-prev-next-button {
+  display: none;
+}
+
 .flexbox {
 	display: flex;
 	flex-wrap: wrap;
@@ -377,6 +381,7 @@ i {
     background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)),url(images/wave-bkgd.jpg) no-repeat bottom;
     padding: 4rem 0;
 	color: white;
+	margin-top: 4rem;
     
 }
 
