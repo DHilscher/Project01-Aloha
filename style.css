@@ -121,6 +121,23 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.prices, .product-category {
+	font-weight: 700;
+	color: #969696;
+}
+
+
+
+.most-loved-products {
+	padding-top: 1rem;
+}
+
+
 .subscribe h2, .subscribe p {
 	text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 
@@ -244,6 +261,12 @@ ul {
 
 .carousel-cell {
 	width: 100%;
+}
+
+.product-category {
+	text-transform: uppercase;
+	font-size: .75rem;
+	margin-bottom: .75rem;
 }
 
 .flickity-prev-next-button {
@@ -381,7 +404,9 @@ i {
     background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)),url(images/wave-bkgd.jpg) no-repeat bottom;
     padding: 4rem 0;
 	color: white;
-	margin-top: 4rem;
+	margin-top: 3.9rem;
+	margin-bottom: .571428571428571rem;
+	height: 15.714285714285714rem;
     
 }
 
