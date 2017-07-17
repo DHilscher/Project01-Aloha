@@ -105,7 +105,7 @@ html {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 2rem;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	
 }
 
@@ -301,6 +301,7 @@ ul {
 
 .category-square, .category-wide {
     border: 4px solid #fff;
+	padding-top: 50%;
 	box-sizing:border-box;
 }
 
@@ -319,14 +320,12 @@ ul {
 .mens {
 	background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(images/mens-category.jpg) no-repeat 50%;
 	background-size: cover, cover;
-	height: 200px;
 	position: relative;
 }
 
 .trends {
 	background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(images/trends-category.jpg) no-repeat 50%;
 	background-size: cover, cover;
-	height: 200px;
 	position: relative;
 	border-left: 0;
 }
@@ -334,7 +333,6 @@ ul {
 .glasses {
 	background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(images/glasses-category.jpg) no-repeat 50%;
 	background-size: cover, cover;
-	height: 200px;
 	position: relative;
 	border-right: 0;
 }
@@ -342,7 +340,6 @@ ul {
 .sale {
 	background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(images/sale-category.jpg) no-repeat 50%;
 	background-size: cover, cover;
-	height: 200px;
 	position: relative;
 	border-left: 0;
 	
@@ -351,7 +348,6 @@ ul {
 .bags {
 	background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(images/bags-category.jpg) no-repeat 50%;
 	background-size: cover, cover;
-	height: 200px;
 	position: relative;
 	border-right: 0;
 	
@@ -360,7 +356,6 @@ ul {
 .womens {
 	background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(images/womens-category.jpg) no-repeat 50%;
 	background-size: cover, cover;
-	height: 200px;
 	position: relative;
 }
 
@@ -601,9 +596,31 @@ input[type=submit] {
 		padding-bottom: .7rem;
 	}
 
-	.none {
-		display:none;
+	.banner {
+		height: 270px;
 	}
+
+	.category-wide {
+		flex-basis: 50%;
+		padding-top: 25%;
+	}
+
+	.category-square {
+		flex-basis: 25%;
+		padding-top: 25%;
+	}
+
+	.mens, .bags {
+		    border-right: 4px solid white;
+	}
+
+	.womens, .trends {
+		    border-left: 4px solid white;
+	}
+
+	/*.none {
+		display:none;
+	}*/
 
 }
 
