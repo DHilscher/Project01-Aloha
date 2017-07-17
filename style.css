@@ -530,6 +530,7 @@ ol ul {
 
 .about h2 {
 	line-height: 2.4rem;
+	padding-bottom: 3rem;
 }
 
 .about p {
@@ -569,13 +570,51 @@ input[type=submit] {
 
 
 @media screen and (min-width: 600px) {
-   body {
-      background-color: red;
-   }
+	html {
+    	font-size: 16px;
+	}
+   
+	.header {
+    	flex-wrap: nowrap; 
+		padding-bottom: .5rem;
+	}
+
+	.cart-container {
+		order: 3;
+	}
+
+	nav {
+		font-size: .9rem;
+		word-spacing: -18px;
+	}
+
+	nav ul {
+		border-top: none;
+	}
+
+	.season {
+		line-height: 3rem;
+		font-size: 3rem;
+	}
+
+	.banner-text {
+		padding-bottom: .7rem;
+	}
+
+	.none {
+		display:none;
+	}
+
 }
 
 @media screen and (min-width: 1240px) {
+   html {
+    font-size: 16px;
+}
+   
+	
+
    body {
-      background-color: green;
+      
    }
 }

@@ -5,6 +5,4 @@ $('.main-carousel').flickity({
   autoPlay: true
 });
 
-// $('.flickity-page-dots').flickity({
-//   bottom: 13px
-// });
+document.querySelector(#about).scrollIntoView({ behavior: 'smooth' });
