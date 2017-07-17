@@ -124,6 +124,7 @@ h2 {
 h3 {
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
+	line-height: 1.5rem;
 }
 
 .prices, .product-category {
@@ -131,7 +132,9 @@ h3 {
 	color: #969696;
 }
 
-
+.prices {
+	line-height: 2rem;
+}
 
 .most-loved-products {
 	padding-top: 1rem;
@@ -150,6 +153,7 @@ p {
 input {
 	line-height: 2rem;
 	font-weight: 400;
+	font-family: Raleway,sans-serif;
 }
 
 
@@ -263,10 +267,15 @@ ul {
 	width: 100%;
 }
 
+/*.carousel-wrapper {
+	padding-bottom: 1rem;
+}*/
+
 .product-category {
 	text-transform: uppercase;
 	font-size: .75rem;
 	margin-bottom: .75rem;
+	line-height: 1.5rem;
 }
 
 .flickity-prev-next-button {
@@ -410,6 +419,17 @@ i {
     
 }
 
+.subscribe p {
+	font-size: 1.15rem;
+	font-weight: 300;
+	line-height: 2.3rem;
+	margin-top: 2rem;
+}
+
+input[type=email], input[type=submit] {
+	font-size: 1rem;
+}
+
 .red {
 	color: #e2574c;
 
@@ -514,6 +534,7 @@ input[type=email] {
     width: 100%;
 	position: relative;
 	display: inline-block;
+	font-weight: 300;
 }
 
 input[type=submit] {
