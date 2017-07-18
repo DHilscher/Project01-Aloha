@@ -232,24 +232,6 @@ ul {
 	line-height: 2.5rem;
 
 }
-/*
-.container {
-    max-width:1240px;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 2%;
-
-} */
-
-/*nav {
-	display: flex;
-} */
-
-/* .inline {
-	display: flex;
-	
-} */
 
 .category-name {
 	position: absolute;
@@ -272,10 +254,6 @@ ul {
 .carousel-cell {
 	width: 100%;
 }
-
-/*.carousel-wrapper {
-	padding-bottom: 1rem;
-}*/
 
 .product-category {
 	text-transform: uppercase;
@@ -363,11 +341,6 @@ ul {
     display: flex;
     
 }
-
-/* .flexcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center; was a test didn't work*/
 
 }
 
@@ -665,10 +638,6 @@ input[type=submit] {
 		padding-right: 3rem;
 	}
 
-	/*.none {
-		display:none;
-	}*/
-
 }
 
 @media screen and (min-width: 1240px) {
@@ -703,6 +672,47 @@ input[type=submit] {
 	.season {
 		line-height: 4rem;
 		font-size: 4rem;
+	}
+
+	.category-name {
+		font-size: 2.4rem;
+		line-height: 2.4rem;
+	}
+
+	.carousel-cell {
+		width: 25%;
+	}
+
+	.subscribe {
+		max-width: 1240px;
+	}
+
+	.sign-up-form {
+		max-width: 37%;
+	}
+
+	.subscribe {
+		padding: 3rem 0;
+	}
+
+	.subscribe h2 {
+		margin-top: 1.8rem;
+	}
+
+	.subscribe p {
+		margin: 2rem 16rem 0 16rem;
+	}
+
+	footer {
+		padding: 3rem 0;
+	}
+
+	.white {
+		padding-left: 1.5rem;
+	}
+
+	.social-container {
+		padding-right: 5.5rem;
 	}
 
 }
