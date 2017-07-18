@@ -22,3 +22,16 @@ $(document).ready(function(){
     } 
   });
 });
+ 
+
+$(function(){
+    $("input[type='submit']").click(function(){
+        var email = document.querySelector("input[type='email']");
+        if (email.checkValidity() == true) {
+            alert("Thank you for subscribing!");
+            
+            console.log('work');
+            return false;
+        }
+    });
+});
