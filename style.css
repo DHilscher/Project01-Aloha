@@ -285,7 +285,7 @@ ul {
 }
 
 .flickity-prev-next-button {
-  display: none;
+    display: none;
 }
 
 .flickity-page-dots {
@@ -611,11 +611,58 @@ input[type=submit] {
 	}
 
 	.mens, .bags {
-		    border-right: 4px solid white;
+		border-right: 4px solid white;
 	}
 
 	.womens, .trends {
-		    border-left: 4px solid white;
+		border-left: 4px solid white;
+	}
+
+	.carousel-cell {
+		width: 50%;
+}
+
+	.hidden {
+		display: inline;
+	
+}
+
+	.subscribe {
+		max-width: 720px;
+	}
+
+	.subscribe p {
+		margin: 2rem 1rem 0 1rem;
+	}
+
+	.sign-up-form {
+		width: 67%;
+}
+
+	.social li {
+		display: list-item;
+		text-align: left;
+		font-weight: 100;
+		font-family: Raleway Web,sans-serif;
+}
+
+	footer {
+		display: flex;
+		justify-content: space-between;	
+	}
+
+	.white p {
+		text-align: left;
+	}
+	
+	.white {
+		align-self: center;
+		padding-left: .8rem;
+	}
+
+	.social-container {
+		align-self: center;
+		padding-right: 3rem;
 	}
 
 	/*.none {
@@ -625,8 +672,8 @@ input[type=submit] {
 }
 
 @media screen and (min-width: 1240px) {
-   html {
-    font-size: 16px;
+    html {
+    	font-size: 16px;
 }
    
 	
