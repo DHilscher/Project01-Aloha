@@ -672,13 +672,37 @@ input[type=submit] {
 }
 
 @media screen and (min-width: 1240px) {
-    html {
-    	font-size: 16px;
-}
-   
-	
+    .body {
+		max-width: 1240px;
+	}
 
-   body {
-      
-   }
+	nav {
+		word-spacing: 0;
+	}
+	
+	.logo {
+		height: auto;
+		max-width: 160px;
+		padding-left: 13.5%;
+	}
+
+	.cart {
+		width: 3.875rem;
+		padding-right: 37%;
+	}
+
+	.red {
+		font-size: 1rem;
+	}
+
+	.banner {
+        background-size: cover,250px 615px,contain;
+		height: 425px;
+	}
+
+	.season {
+		line-height: 4rem;
+		font-size: 4rem;
+	}
+
 }
